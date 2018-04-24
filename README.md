@@ -1,2 +1,2 @@
 # Jailbreak-API
-Some stuff for Jailbreak...
+An API for Jailbreak exploit developers.
