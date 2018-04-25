@@ -1,5 +1,3 @@
--- Synapse Decompiler
--- Purchase Here: https://brack4712.xyz/synapse/purchase/
 
 repeat
 	do break end
