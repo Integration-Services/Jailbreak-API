@@ -1,3 +1,6 @@
+-- Synapse Decompiler
+-- Purchase Here: https://brack4712.xyz/synapse/purchase/
+
 repeat
 	do break end
 	while true do
@@ -71,7 +74,7 @@ do
 		return T(Ed, ...)
 	end
 	S.OnClientEvent = Bd.OnClientEvent
-	function R.jfvivox2(Ed)
+	function R.gdpoo5i3(Ed)
 		Cd = Ed
 	end
 end
@@ -198,7 +201,7 @@ spawn(function()
 		require(f.Module.AdminHax)(xb, Bd)
 	end
 end)
-function R.yd6oy39j()
+function R.go5iuek0()
 	local Bd = Z("KickGui")
 	require(f.Module.KickGui)(xb, Bd)
 end
@@ -306,19 +309,19 @@ do
 		end
 		Ed.Play = true
 		if not Fd then
-			S:FireServer("aub5jyty", Dd, Ed)
+			S:FireServer("m4qlkfi3", Dd, Ed)
 		end
-		R.aub5jyty(o.Name, Dd, Ed)
+		R.m4qlkfi3(o.Name, Dd, Ed)
 	end
 	function Kb(Dd, Ed)
 		local Fd = {}
 		if not Ed then
-			S:FireServer("aub5jyty", Dd, Fd)
+			S:FireServer("m4qlkfi3", Dd, Fd)
 		end
-		R.aub5jyty(o.Name, Dd, Fd)
+		R.m4qlkfi3(o.Name, Dd, Fd)
 	end
 	local Cd = 0
-	function R.aub5jyty(Dd, Ed, Fd)
+	function R.m4qlkfi3(Dd, Ed, Fd)
 		local Gd = Fd.Source
 		local Hd = Fd.Volume or 0.5
 		local Id = Fd.Pitch or 1
@@ -444,7 +447,7 @@ local function Mb(Bd)
 		wait(0.1 + P() * 0.1 * 0.5)
 	end
 end
-function R.jv3a9etc(Bd)
+function R.w3ddgvs4(Bd)
 	assert(Bd <= 50)
 	Mb(Bd)
 end
@@ -532,38 +535,38 @@ local function Qb()
 	return false
 end
 local function Rb(Bd)
-	S:FireServer("seuhnjj2", Bd.Name)
+	S:FireServer("jrhx2hii", Bd.Name)
 end
-function R.jwz8yjno(Bd)
+function R.dg8n1jp1(Bd)
 	if Bd.Bribed then
-		R.wmdahfwe({
+		R.lsseynh8({
 			Title = "Arrest",
 			Text = ("You are bribed! Wait %d seconds."):format(Bd.Bribed)
 		})
 	end
 end
 local function Sb(Bd)
-	S:FireServer("dmcuwk6z", Bd.Name)
+	S:FireServer("zbstuwsw", Bd.Name)
 end
 local function Tb(Bd)
-	S:FireServer("wnkgfikp", Bd.Name)
+	S:FireServer("r4b52cq8", Bd.Name)
 end
 local function Ub(Bd)
-	S:FireServer("sqakwu10", Bd.Name)
+	S:FireServer("cm4jg5zp", Bd.Name)
 end
-function R.nge40huz(Bd)
+function R.tytodwb9(Bd)
 	if Bd.Cooldown then
-		R.wmdahfwe({
+		R.lsseynh8({
 			Title = "Breakout",
 			Text = ("Wait %d seconds."):format(Bd.Cooldown)
 		})
 	end
 end
 local function Vb(Bd)
-	S:FireServer("qskk4ncz", Bd)
+	S:FireServer("t3qvrmp6", Bd)
 end
 local function Wb(Bd)
-	S:FireServer("vkt4ks6s", Bd)
+	S:FireServer("nbz0myqv", Bd)
 end
 local function Xb(Bd, Cd, Dd, Ed)
 	if kb[Bd] then
@@ -807,7 +810,7 @@ local function ac(Bd, Cd)
 			Dd.ImageTransparency = 0.5
 		end
 	end
-	S:FireServer("eh2sebdi", Bd)
+	S:FireServer("xj6n6au9", Bd)
 	return Xb(o.Name, Bd, Cd, true)
 end
 local function bc(Bd)
@@ -819,7 +822,7 @@ local function bc(Bd)
 			Dd.ImageTransparency = 0
 		end
 	end
-	S:FireServer("ym8g1odw")
+	S:FireServer("in09i9xm")
 	return Yb(o.Name, Bd, true)
 end
 local cc = false
@@ -871,16 +874,16 @@ function Ab(Bd, Cd, Dd)
 		if not Fd then
 			return
 		end
-		S:FireServer("uwwbdo1c", Fd.Parent, Dd)
+		S:FireServer("e0sy2g5u", Fd.Parent, Dd)
 	elseif Bd.Parent:FindFirstChild("Humanoid") then
 		local Ed = Bd.Parent
 		local Fd = n:GetPlayerFromCharacter(Ed)
 		if not Fd then
 			return
 		end
-		S:FireServer("rzzqgrf0", Fd.Name, Bd, Cd, Dd)
+		S:FireServer("yt1mw55u", Fd.Name, Bd, Cd, Dd)
 	elseif Bd:IsDescendantOf(workspace.ShootingRange) then
-		S:FireServer("flhf3gzt", Bd)
+		S:FireServer("kfr0uiq3", Bd)
 	end
 end
 function Bb(Bd, Cd)
@@ -942,7 +945,7 @@ local function fc(Bd, Cd)
 			})
 			local Gd, Hd = dc(Bd, Cd)
 			Ab(Gd, Hd, Bd)
-			S:FireServer("azzrmktn", Hd)
+			S:FireServer("wrph2r01", Hd)
 			Zb(o.Name, Hd, true)
 			local Id = Bd.MagSize - 1
 			Bd.MagSize = Id
@@ -970,7 +973,7 @@ local function fc(Bd, Cd)
 		})
 		local Gd, Hd = dc(Bd, Cd)
 		Ab(Gd, Hd, Bd)
-		S:FireServer("azzrmktn", Hd)
+		S:FireServer("wrph2r01", Hd)
 		Zb(o.Name, Hd, true)
 		local Id = Bd.MagSize - 1
 		Bd.MagSize = Id
@@ -987,7 +990,7 @@ local function fc(Bd, Cd)
 		end
 		Bd.LastFire = tick()
 		local Gd = F
-		S:FireServer("azzrmktn", Gd)
+		S:FireServer("wrph2r01", Gd)
 		Zb(o.Name, Gd, true)
 	elseif Bd.Name == "Shotgun" then
 		if tick() - Bd.LastFire < 0.4 then
@@ -1017,7 +1020,7 @@ local function fc(Bd, Cd)
 			local Nd, Od = dc(Bd, Cd, D(Kd, Ld, Md))
 			Ab(Nd, Od, Bd)
 		end
-		S:FireServer("azzrmktn", Hd)
+		S:FireServer("wrph2r01", Hd)
 		Zb(o.Name, Hd, true)
 		local Id = Bd.MagSize - 1
 		Bd.MagSize = Id
@@ -1044,11 +1047,11 @@ local function fc(Bd, Cd)
 			local Kd = Gd.Parent
 			local Ld = n:GetPlayerFromCharacter(Kd)
 			if Ld and Ld.TeamValue.Value == z.Team.Prisoner then
-				S:FireServer("fn8dxlh6", Ld.Name, Gd, Hd)
+				S:FireServer("vg0f2ys1", Ld.Name, Gd, Hd)
 				Id = 10
 			end
 		end
-		S:FireServer("azzrmktn", Hd)
+		S:FireServer("wrph2r01", Hd)
 		Zb(o.Name, Hd, true)
 		local Jd = Bd.MagSize - 1
 		Bd.MagSize = Jd
@@ -1062,7 +1065,7 @@ local function fc(Bd, Cd)
 		end
 		Bd.LastFire = tick()
 		local Gd = F
-		S:FireServer("azzrmktn", Gd)
+		S:FireServer("wrph2r01", Gd)
 		Zb(o.Name, Gd, true)
 	end
 end
@@ -1105,7 +1108,7 @@ do
 		if Cd then
 			Cd = false
 			local Fd = tick() - Bd
-			S:FireServer("ocm21iax", Fd)
+			S:FireServer("vbrojcfu", Fd)
 		end
 	end
 	local Ed = tick()
@@ -1137,9 +1140,9 @@ do
 				Gd.Enabled = true
 			end
 		end
-		S:FireServer("mo6vrt1j")
+		S:FireServer("b290gcv0")
 		if nb.Nitro / nb.NitroLastMax <= 0.01 then
-			R.vrhycaha(true, true)
+			R.k0qmd00t(true, true)
 		end
 	end
 	function kc()
@@ -1151,9 +1154,9 @@ do
 			end
 		end
 		Dd()
-		S:FireServer("i950exdo")
+		S:FireServer("ahhtx5hj")
 	end
-	function R.ldtb4v6q(Fd, Gd)
+	function R.xojmhqui(Fd, Gd)
 		nb.Nitro = Fd
 		nb.NitroLastMax = Gd
 		nb.NitroForceUIUpdate = true
@@ -1279,7 +1282,7 @@ h.Heartbeat:connect(function(Bd)
 						if v.IsNaN(Od) then
 							Od = 0
 						end
-						S:FireServer("bmemmuo1", Nd, Od)
+						S:FireServer("xmob92hh", Nd, Od)
 					end
 					Q.profileend()
 				end
@@ -1445,7 +1448,7 @@ do
 		if not Gd then
 			return
 		end
-		S:FireServer("wdlozv00")
+		S:FireServer("j4kld9q4")
 		local Hd = Instance.new("Animation")
 		Hd.AnimationId = "rbxassetid://752174810"
 		Hd.Parent = Ed
@@ -1493,7 +1496,7 @@ do
 			Ed.Anim:Destroy()
 		end
 		qc = false
-		S:FireServer("pax05fpb")
+		S:FireServer("lxm6uiut")
 		Dd = nil
 		local Fd = o.Character
 		if not Fd then
@@ -1532,7 +1535,7 @@ do
 			tc()
 		end
 	end
-	R.l3fvcgdp = rc
+	R.z89qjiuw = rc
 end
 local uc, vc, wc
 do
@@ -1555,7 +1558,7 @@ do
 			local Id = Hd.Velocity.magnitude
 			if Id < 28 or Fd >= 5 then
 				Dd = false
-				S:FireServer("jbxa3kgi")
+				S:FireServer("xiqm3ucl")
 			end
 		end
 	end
@@ -1615,11 +1618,11 @@ do
 			end
 			bc()
 			Bd.Ragdoll(Fd)
-			S:FireServer("f1hxl80n")
+			S:FireServer("ngt454n6")
 		end
 		delay(0.1, Kd)
 	end
-	function R.jbxa3kgi(Fd)
+	function R.xiqm3ucl(Fd)
 		Dd = false
 		if Fd then
 			local Gd = o.Character
@@ -1751,14 +1754,14 @@ do
 		if not Ud then
 			return
 		end
-		S:FireServer("jyymnldc", Td)
+		S:FireServer("zp9agy0e", Td)
 	end
 	local function Fd()
 		local Sd = o.Character:FindFirstChild("HumanoidRootPart")
 		if not Sd then
 			return
 		end
-		S:FireServer("ccukdfza")
+		S:FireServer("j3i3txjd")
 	end
 	local function Gd()
 		local Sd = g:UserOwnsGamePassAsync(o.UserId, z.Gamepass.Stereo.PassId)
@@ -1942,7 +1945,7 @@ local function Qc(Bd, Cd, Dd)
 			Mc = Gd:LoadAnimation(Id)
 			Mc:Play()
 			Nc = tick()
-			S:FireServer("fowhro9l")
+			S:FireServer("o8ake3bl")
 		elseif Ed == "Horn" then
 			Gc()
 		elseif Ed == "Radio" then
@@ -1951,7 +1954,7 @@ local function Qc(Bd, Cd, Dd)
 			end
 		elseif Ed == "Flip" then
 			if mb then
-				S:FireServer("k0t9g6hx", mb.Model)
+				S:FireServer("i5dzuqzp", mb.Model)
 			end
 		elseif Ed == "Nitro" and mb and not mb.Passenger then
 			jc()
@@ -2183,7 +2186,7 @@ local cd = function(Bd)
 	Cd.Position = UDim2.new(0.5, -Dd * 0.5, 0.5, -Ed * 0.5)
 	return Cd, Dd, Ed
 end
-function R.ag6z344x(Bd, Cd)
+function R.kchzviwn(Bd, Cd)
 	ub = Bd
 	if Cd then
 		return
@@ -2197,7 +2200,7 @@ function R.ag6z344x(Bd, Cd)
 		Ed.Visible = false
 	end)
 end
-function R.bmemmuo1(Bd, Cd, Dd)
+function R.xmob92hh(Bd, Cd, Dd)
 	local Ed = lb[Bd]
 	if not Ed then
 		Ed = {}
@@ -2230,7 +2233,7 @@ end
 local function dd(Bd)
 	if mb then
 		Bd = true
-		S:FireServer("eflt9v3l")
+		S:FireServer("v5iiq0dk")
 		if (not mb or not mb.Passenger) and yb.Window.IsOpen then
 			y.WindowClose(yb.Window)
 		end
@@ -2243,7 +2246,7 @@ local function dd(Bd)
 end
 do
 	local Bd, Cd
-	function R.bbqekctq()
+	function R.ds0yt4no()
 		wait()
 		local Dd = o.Character
 		if not Dd then
@@ -2288,7 +2291,7 @@ do
 			end
 		end
 	end
-	function R.r52sndps(Dd)
+	function R.it6bl9dc(Dd)
 		tb = false
 		sb = false
 		wc = false
@@ -2331,23 +2334,23 @@ do
 		end)
 	end
 end
-function R.la1lwy8o()
+function R.mnn9zmyg()
 	vb = true
 	uc()
 	wait(z.Time.Stunned)
 	vb = false
 end
-function R.mt0ucw5a(Bd)
+function R.c46ljh51(Bd)
 	ab.Rank.Text = ("Level %d (%d/%d)"):format(1, Bd, 999)
 end
-function R.wmdahfwe(Bd)
+function R.lsseynh8(Bd)
 	Jb("Notification", {Source = A, Volume = 0.3}, true)
 	pcall(function()
 		A:SetCore("SendNotification", Bd)
 	end)
 end
-xb.Notification = R.wmdahfwe
-function R.gsvwfdu1(Bd)
+xb.Notification = R.lsseynh8
+function R.fkxc9cx4(Bd)
 	pcall(function()
 		A:SetCore("ChatMakeSystemMessage", {
 			Text = ("[Server] %s"):format(Bd),
@@ -2355,7 +2358,7 @@ function R.gsvwfdu1(Bd)
 		})
 	end)
 end
-function R.itlrbdyj(Bd)
+function R.z1xdlc29(Bd)
 	jb = Bd
 	local Cd = Eb(Bd.Cash)
 	bb.Safe.Money.Text = Cd
@@ -2363,7 +2366,7 @@ function R.itlrbdyj(Bd)
 	ab.BuyVehicle.Money.Text = Cd
 	bb.GarageSide.Money.Text = Cd
 end
-function R.bm2iarf2(Bd, Cd)
+function R.gb200gk2(Bd, Cd)
 	if Bd > 0 then
 		Mb(2)
 		ab.PlusCash.TextColor3 = Color3.fromRGB(68, 194, 93)
@@ -2386,7 +2389,7 @@ function R.bm2iarf2(Bd, Cd)
 end
 do
 	local Bd = 0
-	function R.x4jyknej()
+	function R.uagf9kz2()
 		local Cd = Bd + 1
 		Bd = Cd
 		local Dd = z.Time.Cell
@@ -2407,7 +2410,7 @@ do
 		Ed.Visible = false
 	end
 end
-function R.uzqsubsi(Bd, Cd)
+function R.oa64862u(Bd, Cd)
 	if Cd then
 		if Cd.Sounds then
 			for Ed, Fd in next, Cd.Sounds, nil do
@@ -2440,7 +2443,7 @@ function R.uzqsubsi(Bd, Cd)
 	end
 	ob = Bd
 end
-function R.ofuqb9dh(Bd)
+function R.qfqcls0c(Bd)
 	kb[Bd] = nil
 	lb[Bd] = nil
 	pb[Bd] = nil
@@ -2502,7 +2505,7 @@ do
 			Dd()
 			return
 		end
-		S:FireServer("vne96atr", Bd)
+		S:FireServer("f0upvdid", Bd)
 	end
 	local function Fd()
 		Dd()
@@ -2511,7 +2514,7 @@ do
 	Cd.Buy.MouseButton1Down:connect(Ed)
 	Cd.Cancel.MouseButton1Down:connect(Dd)
 	Cd.BuyCash.MouseButton1Down:connect(Fd)
-	function R.vne96atr(Id)
+	function R.f0upvdid(Id)
 		if Id.Success then
 			Cd.Visible = false
 			Mb(5)
@@ -2521,10 +2524,10 @@ do
 			Dd()
 		end
 	end
-	function R.c9lpeqsq(Id)
+	function R.qeo1ku4r(Id)
 		nb.VehiclesOwned = Id
 	end
-	function R.mhuvmafu(Id, Jd)
+	function R.twzk2in5(Id, Jd)
 		Bd = Id
 		local Kd = z.Price[Id]
 		if Jd then
@@ -2537,7 +2540,7 @@ do
 			wb(Md.Buy)
 		end
 	end
-	function R.wt46w5ob()
+	function R.ikaarafi()
 		local Id = ab.SimpleMessage
 		Id.Visible = true
 		Id.Text = "That vehicle is locked. Ask the owner to unlock it!"
@@ -2563,11 +2566,11 @@ do
 			return
 		end
 		mb.Locked = not mb.Locked
-		S:FireServer("yl3f5b39", mb.Locked)
+		S:FireServer("t8h95vpv", mb.Locked)
 		Gd()
 	end
 	ab.Lock.MouseButton1Down:Connect(Hd)
-	function R.sllkuhok(Id)
+	function R.x93wwoti(Id)
 		if tb then
 			Qc({Name = "Crawl"}, true)
 		end
@@ -2630,7 +2633,7 @@ do
 		mb = Id
 		Gd()
 	end
-	function R.go2iz1qn()
+	function R.t2eo6dkm()
 		if not mb then
 			return
 		end
@@ -2695,7 +2698,7 @@ do
 			end
 		end
 	end
-	function R.hogkeg9s(Id)
+	function R.oe1ah5bp(Id)
 		if not mb then
 			return
 		end
@@ -2703,7 +2706,7 @@ do
 			mb[Jd] = Kd
 		end
 	end
-	function R.axcj00lc()
+	function R.ux8nmvhg()
 		if not mb then
 			return
 		end
@@ -2713,18 +2716,18 @@ do
 		zb.FallOutOfSky(mb)
 	end
 end
-function R.ax2ko6ld()
+function R.wflhgj2m()
 	ab.FaultyAction.Visible = true
 	wait(4)
 	ab.FaultyAction.Visible = false
 end
-function R.eh2sebdi(Bd, Cd)
+function R.xj6n6au9(Bd, Cd)
 	Xb(Bd, Cd)
 end
-function R.ym8g1odw(Bd)
+function R.in09i9xm(Bd)
 	Yb(Bd)
 end
-function R.azzrmktn(Bd, Cd, Dd)
+function R.wrph2r01(Bd, Cd, Dd)
 	local Ed = kb[Bd]
 	if Ed then
 		for Fd, Gd in next, Dd, nil do
@@ -2780,7 +2783,7 @@ do
 					table.insert(ib.ItemStacks, Gd, Kd)
 				end
 				Bd = false
-				R.jsc55te5()
+				R.um93inh0()
 			end
 		end)
 	end
@@ -2790,7 +2793,7 @@ do
 			Dd = Dd + 1
 		end
 	end)
-	function R.jsc55te5(Ed, Fd)
+	function R.um93inh0(Ed, Fd)
 		if Ed then
 			local Ld = {}
 			for Nd, Od in next, ib.ItemStacks, nil do
@@ -3172,8 +3175,8 @@ do
 			Qd:CloseFun()
 		end
 	end
-	R.m6bp1emg = Hd
-	R.ddei24ru = Id
+	R.jdlqdifb = Hd
+	R.e4x3s6fe = Id
 	local function Jd(Od)
 		if not o.Character then
 			return
@@ -3189,7 +3192,7 @@ do
 			return
 		end
 		Hd(Od)
-		S:FireServer("jupp1k0e", Od)
+		S:FireServer("zbtl1t8p", Od)
 	end
 	local function Ld(Od, Pd, Qd, Rd)
 		if Od.Settings.ServerOnly then
@@ -3327,7 +3330,7 @@ do
 			end
 		end
 	end
-	function R.kkwyrlj4(Od)
+	function R.eoh45rta(Od)
 		local Pd = Od.Model
 		local Qd = Cd[Pd]
 		if Qd then
@@ -3361,9 +3364,9 @@ do
 			end
 		end
 	end
-	function R.qknp5p6c(Od)
+	function R.dg3mgscu(Od)
 		for Pd, Qd in next, Od, nil do
-			R.kkwyrlj4(Qd)
+			R.eoh45rta(Qd)
 		end
 	end
 	function ld.Open(Od)
@@ -3380,7 +3383,7 @@ do
 					return
 				end
 				Qd = tick()
-				S:FireServer("urs6cz00", Pd.Name)
+				S:FireServer("jbimfnir", Pd.Name)
 			end
 			table.insert(Dd, {Part = Pd, Fun = Rd})
 		end
@@ -3515,10 +3518,10 @@ do
 	local Pd = function(me, ne)
 		return me.Type > ne.Type
 	end
-	function R.sn6qlbjc()
+	function R.nt5v4ktz()
 		Mb(12)
 	end
-	function R.ksb9kjal(me)
+	function R.fxayrpyf(me)
 		Md("Slider")
 		local ne = bb.SafeSlider
 		local oe = 30
@@ -3550,7 +3553,7 @@ do
 			ve:disconnect()
 			local ze = me[oe].Frame
 			ze.BackgroundColor3 = Gd(0, 0, 0)
-			S:FireServer("r9we5atq")
+			S:FireServer("rma5hlat")
 			wait(1.5)
 			Md("Inventory")
 			for Ae, Be in next, me, nil do
@@ -3604,9 +3607,9 @@ do
 		if not Vd then
 			return
 		end
-		S:FireServer("ksb9kjal", Vd)
+		S:FireServer("fxayrpyf", Vd)
 	end
-	function R.lwudvruh(me, ne)
+	function R.iceehl2s(me, ne)
 		table.sort(me, Pd)
 		Bd = ne
 		Hd = me
@@ -3660,7 +3663,7 @@ do
 		Ud = te
 	end
 	local Xd = 0
-	function R.pyqz9n8s(me)
+	function R.niez6f3m(me)
 		local ne = bb.SafeSlider
 		local oe = Xd + 1
 		Xd = oe
@@ -3711,15 +3714,15 @@ do
 	end
 	local function ge(me, ne)
 		de, ee = me, ne
-		S:FireServer("onbvr52k", Zd)
+		S:FireServer("fp2nyrzq", Zd)
 	end
 	local function he(me, ne)
 		de, ee = me, ne
 		local oe = Dd.Sidebar.Gift.Inner.Username.Text
-		S:FireServer("wywj2e1o", Zd, oe)
+		S:FireServer("vmq814l2", Zd, oe)
 		ce()
 	end
-	function R.o3tedn4t(me)
+	function R.dqho5w1y(me)
 		if me.Success then
 			fe(de, ee)
 		elseif me.NotEnoughMoney then
@@ -3893,12 +3896,12 @@ do
 		Jd()
 	end
 	local function Nd()
-		S:FireServer("d0muf0i5", Ed)
+		S:FireServer("jklglqiu", Ed)
 	end
 	Cd.Police.MouseButton1Down:connect(Ld)
 	Cd.Prisoner.MouseButton1Down:connect(Md)
 	Cd.Confirm.MouseButton1Down:connect(Nd)
-	function R.d0muf0i5()
+	function R.jklglqiu()
 		Ed = "Neutral"
 		Cd.Confirm.Visible = false
 		ab.Inventory.Visible = false
@@ -3906,7 +3909,7 @@ do
 		Kd()
 	end
 	local Od = 0
-	function R.bhd2qywo()
+	function R.neac4i5d()
 		local Xd = Od + 1
 		local Yd = Cd.Full
 		Yd.Visible = true
@@ -3917,7 +3920,7 @@ do
 			Yd.Visible = false
 		end)
 	end
-	function R.srskgq14()
+	function R.otx9ronb()
 		Bd.TintColor = Color3.new(1, 1, 1)
 		Hd()
 		ab.Inventory.Visible = true
@@ -3926,9 +3929,9 @@ do
 	local function Qd()
 		bc()
 		dd()
-		R.r52sndps(true)
-		S:FireServer("uvyv3qsq")
-		R.d0muf0i5()
+		R.it6bl9dc(true)
+		S:FireServer("po9d088h")
+		R.jklglqiu()
 	end
 	local Rd, Sd
 	local function Td()
@@ -4074,7 +4077,7 @@ do
 		Fd = nil
 	end
 	local Id = "Day"
-	function R.mqek5zje(Jd)
+	function R.euhomu5j(Jd)
 		if Jd == Id then
 			return
 		end
@@ -4133,7 +4136,7 @@ do
 		y.WindowClose(Hd)
 	end)
 	nb.AtGasStation = false
-	function R.vrhycaha(Jd, Kd)
+	function R.k0qmd00t(Jd, Kd)
 		if Jd then
 			if not Kd then
 				nb.AtGasStation = true
@@ -4145,7 +4148,7 @@ do
 		end
 	end
 	ab.Nitro.Purchase.MouseButton1Down:Connect(function()
-		R.vrhycaha(true, true)
+		R.k0qmd00t(true, true)
 	end)
 	local function Id()
 		if not z.FetchedMarketplace then
@@ -4174,7 +4177,7 @@ do
 					Md.Buy.TextLabel.Text = ("+%d Fuel"):format(Kd.Fuel)
 					Md.Buy.MouseButton1Down:connect(function()
 						if nb.Nitro >= z.Scalar.NitroMax - 25 then
-							R.wmdahfwe({
+							R.lsseynh8({
 								Title = "Rocket Fuel",
 								Text = "You have a lot of fuel, go use it!"
 							})
@@ -4394,7 +4397,7 @@ do
 		md.LODUpdateInterest(Ld)
 	end
 	eb(1, Hd, "LOD Interest Update")
-	function R.izdrda0d(Id)
+	function R.quj0ickx(Id)
 		md.LODUpdateInterest(Id)
 	end
 end
@@ -4465,7 +4468,7 @@ do
 				break
 			end
 		end
-		S:FireServer("yy1t03ck", Gd, Hd)
+		S:FireServer("xcx3lir3", Gd, Hd)
 	end
 	function od(Gd)
 		local Hd = Gd.Name:match("Drawer(%d)")
@@ -4494,7 +4497,7 @@ do
 				end
 				nd(Id, Gd)
 			elseif Md then
-				S:FireServer("jfdqxfe8", Gd)
+				S:FireServer("uceq23fn", Gd)
 			end
 		else
 			local function Kd(Ld)
@@ -4504,7 +4507,7 @@ do
 				if Id then
 					nd(Id, Gd)
 				else
-					S:FireServer("sxy9dk15", Gd)
+					S:FireServer("ixgwj6ee", Gd)
 				end
 				id()
 			end
@@ -4523,7 +4526,7 @@ do
 			TextStrokeTransparency = 0.95
 		}
 	end
-	function R.rvm2vk1h()
+	function R.lqrmcbhf()
 		xb.HasEscaped = true
 		Bd.Title.Text = "You escaped!"
 		Bd.Desc.Text = "You are now a criminal. Run, hide, rob banks, check out the city, find other criminals. Don't get caught!"
@@ -4532,7 +4535,7 @@ do
 		Bd.Visible = false
 	end
 end
-function R.skl46d8j()
+function R.byupsssk()
 	if mb then
 		local Bd = 0
 		mb.TireHealth = Bd
@@ -4540,7 +4543,7 @@ function R.skl46d8j()
 end
 do
 	local Bd = ab.CollectMoney
-	function R.t1ehjkzq(Dd, Ed)
+	function R.ragl8mi3(Dd, Ed)
 		local Fd = Dd.Type
 		local Gd = Dd.Money
 		local Hd = Dd.Message
@@ -4562,7 +4565,7 @@ do
 			Bd.Time.Visible = false
 		end
 	end
-	function R.hyzmr6xx()
+	function R.ndt2ck8t()
 		Bd.Visible = false
 		Bd.Progress.Frame.Size = UDim2.new(0, 0, 1, 0)
 	end
@@ -4575,22 +4578,22 @@ do
 	local function Bd(Cd, Dd)
 		local Ed, Fd = Dd[1], Dd[2]
 		Jb("Button", {Source = Ed, Volume = 0.2})
-		S:FireServer("eu92zye9", Fd)
+		S:FireServer("o5unh9bt", Fd)
 	end
 end
-function R.mngo4gjq(Bd)
+function R.o4z8jxnx(Bd)
 	hb = Bd
 	md.LODLockModel(hb.Model.Parent)
 end
-function R.bibbv1r3(Bd)
+function R.ttpv1nnt(Bd)
 	Lb(Bd)
 end
-function R.fvvq3ncv(Bd)
+function R.rqhqza4g(Bd)
 	local Cd = Bd == "Criminal"
 	local Dd = ab.Sidebar.Bounty
 	Dd.Visible = Cd
 end
-function R.ehghw3m8(Bd)
+function R.msn4okvk(Bd)
 	local Cd = ab.Sidebar.Bounty
 	Cd.Text = Eb(Bd)
 end
@@ -4618,13 +4621,13 @@ do
 	end
 	eb(z.Time.HelpMessageCycle, Cd, "Cycle Help Message")
 end
-function R.z5hvzsti(Bd, ...)
+function R.grf6gg9n(Bd, ...)
 	if Bd == "ems" then
 		delay(0.5, function()
-			S:FireServer("z5hvzsti", Bd)
+			S:FireServer("grf6gg9n", Bd)
 		end)
 	else
-		S:FireServer("z5hvzsti", Bd)
+		S:FireServer("grf6gg9n", Bd)
 	end
 	assert(R[Bd], Bd)(...)
 end
@@ -4681,7 +4684,7 @@ do
 								Md.TextLabel.Text = Ld
 								Md.Parent = Dd.Inner
 								Md.MouseButton1Down:connect(function()
-									S:FireServer("nntfwx8p", Ld)
+									S:FireServer("fqn1nelj", Ld)
 								end)
 							end
 							Md.Visible = true
@@ -4725,9 +4728,9 @@ do
 		if mb then
 			return
 		end
-		S:FireServer("vsnu6k43", Dd.Parent, Dd)
+		S:FireServer("hj2kza2n", Dd.Parent, Dd)
 	end
-	function R.g1j915ph()
+	function R.cd8uoa16()
 		wait()
 		s.CircleAction.NotAllowed()
 	end
@@ -4908,7 +4911,7 @@ h.Stepped:connect(function(Bd, Cd)
 				local Nd = rd - Md
 				if Nd > 20 then
 					uc()
-					S:FireServer("qqp20mx6", Nd)
+					S:FireServer("eejzg4mb", Nd)
 					rd = nil
 				end
 			end
@@ -4977,7 +4980,7 @@ h.Stepped:connect(function(Bd, Cd)
 	ab.Nitro.Value.BackgroundColor3 = Kd
 	Q.profileend()
 end)
-function R.k6nkncix(Bd)
+function R.p25n6pkj(Bd)
 	local Cd
 	if Bd.NotEnoughMoney then
 		Cd = "You don't have that much money."
@@ -4991,7 +4994,7 @@ function R.k6nkncix(Bd)
 		Cd = ("Can only donate %s per day."):format(Eb(Bd.Quantity))
 	end
 	if Cd then
-		R.wmdahfwe({Title = "Donation", Text = Cd})
+		R.lsseynh8({Title = "Donation", Text = Cd})
 	end
 end
 bb.DevProduct.Drop.Input.Box.Changed:connect(function(Bd)
@@ -5006,7 +5009,7 @@ bb.DevProduct.Drop.Button.Submit.MouseButton1Down:connect(function()
 	if not Bd then
 		return
 	end
-	S:FireServer("i0pgajeg", Bd)
+	S:FireServer("ey6qoldv", Bd)
 end)
 local td = {}
 local function ud(Bd, Cd)
@@ -5214,7 +5217,7 @@ do
 			end
 			return true
 		elseif Id.ShouldHotwire then
-			R.wmdahfwe({
+			R.lsseynh8({
 				Title = "Vehicle",
 				Text = "You can't drive this. Hold to hijack it."
 			})
@@ -5403,7 +5406,7 @@ do
 	local function Ed(Fd, Gd)
 		local Hd = Fd.Part.Parent
 		if Gd then
-			S:FireServer("aipn33md", Hd)
+			S:FireServer("vl1p1erc", Hd)
 			return true
 		end
 	end
@@ -5441,9 +5444,9 @@ do
 	local Dd = {}
 	local function Ed(Fd, Gd)
 		if Gd then
-			S:FireServer("seda34oc", Fd.Part)
+			S:FireServer("cy5azvhn", Fd.Part)
 		else
-			S:FireServer("fewrany0", Fd.Part)
+			S:FireServer("jqtyvyyr", Fd.Part)
 		end
 		return true
 	end
@@ -5474,7 +5477,7 @@ do
 	do
 		local function Cd(Ed, Fd)
 			if Fd then
-				S:FireServer("i2nr02q5", "LiftGate")
+				S:FireServer("cbbiz152", "LiftGate")
 			end
 			return true
 		end
@@ -5491,7 +5494,7 @@ do
 	do
 		local function Cd(Ed, Fd)
 			if Fd then
-				S:FireServer("i2nr02q5", "ExplodeWall")
+				S:FireServer("cbbiz152", "ExplodeWall")
 			end
 			return true
 		end
@@ -5507,7 +5510,7 @@ do
 	end
 	local function Cd(Ed, Fd)
 		if Fd then
-			S:FireServer("i2nr02q5", "BankDoor")
+			S:FireServer("cbbiz152", "BankDoor")
 		end
 		return true
 	end
@@ -5529,7 +5532,7 @@ end
 do
 	local Bd = Instance.new("BindableEvent")
 	Bd.Event:connect(function()
-		S:FireServer("d39jxnki")
+		S:FireServer("wjpp80tq")
 	end)
 	wait(1)
 	local Cd, Dd = pcall(function()
@@ -5586,7 +5589,7 @@ do
 						return
 					end
 					Bd = true
-					T("dvdgycrd", "NoClip StrafingNoPhysics", false)
+					T("sn5icnak", "NoClip StrafingNoPhysics", false)
 				end
 			end
 		end)
@@ -5603,7 +5606,7 @@ do
 					return
 				end
 				Bd = true
-				T("dvdgycrd", "BackpackTool", false)
+				T("sn5icnak", "BackpackTool", false)
 			end
 		end)
 	end)
@@ -5794,7 +5797,7 @@ do
 		end
 		if Wd then
 			Bd = true
-			T("dvdgycrd", Xd, false)
+			T("sn5icnak", Xd, false)
 		end
 	end
 	local function Td()
@@ -5802,7 +5805,7 @@ do
 		if not Ud then
 			local Wd = "FailedPcall"
 			Bd = true
-			T("dvdgycrd", Wd, false)
+			T("sn5icnak", Wd, false)
 		end
 	end
 	eb(1, Td)
